@@ -1,0 +1,30 @@
+{
+  "name": "webhook_queue",
+  "scripts": {
+  },
+  "env": {
+    "ACCESS_TOKEN": {
+      "generator": "secret"
+    },
+    "LANG": "en_US.UTF-8",
+    "RACK_ENV": "development",
+    "RAILS_ENV": "development",
+    "RAILS_LOG_TO_STDOUT": "enabled",
+    "RAILS_SERVE_STATIC_FILES": "enabled",
+    "RECEIVER_URL": "https://requestb.in/x14yojx1",
+    "SECRET_KEY_BASE": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql",
+    "heroku-redis"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
