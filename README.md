@@ -29,7 +29,7 @@ Once that's complete you're ready to the puma server and start your Sidekiq work
 
 # Using the Application
 
-Setup any webhooks you would like to queue with Webhook Queue to point to the `/messages` endpoint of your new server - you only need to add, as a url parameter, your access token to authenticate your webhook publisher with your Queue (e.g. `http://myqueue.com/messages?access_token`). Now your ready to queue!
+Setup any webhooks you would like to queue with Webhook Queue to point to the `/messages` endpoint of your new server - you only need to add, as a url parameter, your access token to authenticate your webhook publisher with your Queue (e.g. `http://myqueue.com/messages?access_token=xyz`). Now your ready to queue!
 
 # How to contribute
 
