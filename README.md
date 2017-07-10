@@ -1,6 +1,6 @@
 # Webhook Queue
 
-Webhook Queue is simple Rails 5 application that listens for valid JSON POST requests made to the `/messages` endpoint and queues them for FIFO delivery with a Sidekiq job queue. It light weight and intended to be a highly resilient message queue system that can sit in front of a less reliable messaging consuming system that requires FIFO message delivery.
+Webhook Queue is simple Rails 5 application that listens for valid JSON POST requests made to the `/messages` endpoint and queues them for FIFO delivery with a Sidekiq job queue. It is light weight and intended to act as a highly resilient message queue system that can sit in front of a less reliable messaging consuming system that requires FIFO message delivery.
 
 # Requirements
 
